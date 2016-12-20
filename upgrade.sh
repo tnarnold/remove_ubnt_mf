@@ -23,7 +23,7 @@ if [ -e "$FILE" ] ; then
         #URL='http://dl.ubnt.com/firmwares/XN-fw/v5.6.4/XM.v5.6.4.28924.160331.1253.bin'
         # 5.6.4 licensed
         #URL='http://dl.ubnt.com/XN-fw-internal/v5.6.4/XM.v5.6.4-licensed.28998.160428.1051.bin'
-        URL='http://dl.ubnt.com/firmwares/XN-fw/v6.0/XM.v6.0.30097.161219.1716.bin'
+        URL='http://dl.ubnt.com/firmwares/XN-fw/v5.6.9/XM.v5.6.9.29546.160819.1157.bin'
         #URL='http://dl.ubnt.com/firmwares/XN-fw/v5.6.5/XM.v5.6.5.29033.160515.2119.bin'
         wget $URL -O /tmp/firmware.bin
         ubntbox fwupdate.real -m /tmp/firmware.bin
@@ -31,7 +31,7 @@ if [ -e "$FILE" ] ; then
         echo "Device XW"
         #URL='http://dl.ubnt.com/firmwares/XW-fw/v5.6.4/XW.v5.6.4.28924.160331.1238.bin'
         # 5.6.4 licensed
-        URL='http://dl.ubnt.com/XN-fw-internal/v5.6.4/XW.v5.6.4-licensed.28998.160428.1038.bin'
+        URL='http://dl.ubnt.com/firmwares/XW-fw/v5.6.9/XW.v5.6.9.29546.160819.1146.bin'
         #URL='http://dl.ubnt.com/firmwares/XW-fw/v5.6.5/XW.v5.6.5.29033.160515.2108.bin'
         wget $URL -O /tmp/firmware.bin
         ubntbox fwupdate.real -m /tmp/firmware.bin
