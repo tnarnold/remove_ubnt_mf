@@ -35,11 +35,11 @@ Or or create a script with the following command
 
 - Remove
 
-sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10  -o StrictHostKeyChecking=no USER@IP "trigger_url  https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/disinfect.sh | sh"
+sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10  -o StrictHostKeyChecking=no USER@IP "trigger_url  https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/disinfect.sh | sh"
 
 - Upgrade
 
-sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/upgrade.sh | sh"
+sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/upgrade.sh | sh"
 
 
 You need install in server SSHPASS
@@ -52,11 +52,11 @@ You may prefer to run the command only a single radio to this run the following 
 
 - Remove
 
-trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/disinfect.sh | sh
+trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/disinfect.sh | sh
 
 - Upgrade
 
-trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/upgrade.sh | sh
+trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/upgrade.sh | sh
 
 ------------------
 
@@ -95,11 +95,11 @@ Ou pode criar scripts próprios e inserir o comando abaixo:
 
 - Remover
 
-sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/disinfect.sh | sh"
+sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master//disinfect.sh | sh"
 
 - Atualizar
 
-sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url  https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/upgrade.sh | sh"
+sshpass -p PASS ssh -o UserKnownHostsFile=/dev/null -o ConnectTimeout=10 -o StrictHostKeyChecking=no USER@IP "trigger_url  https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/upgrade.sh | sh"
 
 
 Você irá precisar instalar no linux o SSHPASS
@@ -112,9 +112,9 @@ Se você ocasionalmente tiver poucos equipamentos afetados e queira executar um 
 
 - Remover
 
-trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/disinfect.sh | sh
+trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master//disinfect.sh | sh
 
 - Atualizar
 
-trigger_url https://raw.githubusercontent.com/diegocanton/remove_ubnt_mf/master/upgrade.sh | sh
+trigger_url https://raw.githubusercontent.com/tnarnold/remove_ubnt_mf/master/upgrade.sh | sh
 
